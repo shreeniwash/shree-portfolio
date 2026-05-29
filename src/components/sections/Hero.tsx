@@ -72,16 +72,12 @@ export default function Hero() {
                   </svg>
                 </Button>
               </motion.div>
-              <motion.div variants={fadeUp}>
-                <Button variant="secondary" size="lg" href="#contact">
-                  Contact Me
-                </Button>
-              </motion.div>
+
               <motion.div variants={fadeUp}>
                 <a
-                  href="/cv.pdf"
+                  href="/Shreeniwash_Yadav_Web_Developer.pdf"
                   download
-                  className="group relative inline-flex items-center gap-2 px-6 py-4 text-xl font-medium text-muted hover:text-foreground transition-all duration-300"
+                  className="group relative inline-flex items-center border rounded-full text-white  gap-2 px-6 py-4 text-2xl font-medium text-muted hover:text-foreground transition-all duration-300"
                 >
                   <span className="relative z-10 flex items-center gap-2">
                     <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">

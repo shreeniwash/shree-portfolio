@@ -70,7 +70,7 @@ export default function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          SY<span className="text-muted">.</span>
+          SKY<span className="text-muted">.</span>
         </motion.a>
 
         {/* Desktop Menu */}
@@ -79,7 +79,7 @@ export default function Navbar() {
             <motion.button
               key={link.href}
               onClick={() => scrollToSection(link.href)}
-              className={`relative px-4 py-2 text-[23px] cursor-pointer font-bold transition-colors duration-300 rounded-lg ${activeSection === link.href.slice(1)
+              className={`relative px-4 py-2 text-[20px] cursor-pointer font-bold transition-colors duration-300 rounded-lg ${activeSection === link.href.slice(1)
                 ? "text-foreground"
                 : "text-muted hover:text-foreground"
                 }`}
